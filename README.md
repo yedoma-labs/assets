@@ -81,7 +81,7 @@ Creates three files per input image:
 ```markdown
 # Project Name
 
-![Project Header](./resized/banner-resized.png)
+![Project Header](https://raw.githubusercontent.com/yedoma-labs/assets/main/resized/banner-resized.png)
 
 Your project description here...
 ```
@@ -90,8 +90,8 @@ Your project description here...
 
 ```html
 <picture>
-  <source media="(max-width: 640px)" srcset="./resized/banner-resized-mobile.png">
-  <img src="./resized/banner-resized.png" alt="Project Header">
+  <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/yedoma-labs/assets/main/resized/banner-resized-mobile.png">
+  <img src="https://raw.githubusercontent.com/yedoma-labs/assets/main/resized/banner-resized.png" alt="Project Header">
 </picture>
 ```
 
@@ -99,8 +99,8 @@ Your project description here...
 
 ```html
 <picture>
-  <source srcset="./resized/banner-resized.webp" type="image/webp">
-  <img src="./resized/banner-resized.png" alt="Project Header">
+  <source srcset="https://raw.githubusercontent.com/yedoma-labs/assets/main/resized/banner-resized.webp" type="image/webp">
+  <img src="https://raw.githubusercontent.com/yedoma-labs/assets/main/resized/banner-resized.png" alt="Project Header">
 </picture>
 ```
 
