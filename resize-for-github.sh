@@ -8,9 +8,9 @@ set -e
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 OUTPUT_DIR="${SCRIPT_DIR}/resized"
-HEADER_WIDTH=1280
-HEADER_HEIGHT=400
-MOBILE_WIDTH=640
+HEADER_WIDTH=1920
+HEADER_HEIGHT=960
+MOBILE_WIDTH=960
 
 # Note: Images are downscaled to fit within bounds while maintaining aspect ratio
 # No cropping is performed
